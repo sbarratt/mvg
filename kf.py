@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 n = 5
 p = 4
-Sigma_w = 1*np.eye(n)
+Sigma_w = .1*np.eye(n)
 Sigma_v = 1*np.eye(p)
 A = .96*np.eye(n)+.01*np.random.randn(n,n)
 C = np.random.randn(p,n)
